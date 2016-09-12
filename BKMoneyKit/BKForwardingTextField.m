@@ -9,7 +9,7 @@
 #import "BKForwardingTextField.h"
 
 @interface BKForwardingTextField ()
-
+@property (nonatomic, assign) id<UITextFieldDelegate> userDelegate;
 @end
 
 @implementation BKForwardingTextField
